@@ -224,7 +224,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
 .judge-hero__copy > p { max-width: 720px; margin: 0; color: #d0c8d9; font-size: clamp(17px,1.6vw,21px); line-height: 1.6; }
 .judge-hero__actions { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; margin-top: 34px; }
 .judge-hero__primary, .judge-hero__secondary { min-height: 54px; display: inline-flex; align-items: center; justify-content: center; border-radius: 15px; font-weight: 750; }
-.judge-hero__primary { min-width: 0; gap: 18px; padding: 0 22px; border-radius: 999px; color: #13090d; background: var(--coral); box-shadow: 0 18px 45px rgba(255,94,102,.2); }
+.judge-hero__primary { min-width: 190px; gap: 24px; padding: 0 19px; border-radius: 999px; color: #13090d; background: var(--coral); box-shadow: 0 18px 45px rgba(255,94,102,.2); }
 .judge-hero__primary i { font-size: 21px; font-style: normal; transition: transform 180ms ease; }
 .judge-hero__primary:hover i { transform: translateX(4px); }
 .judge-hero__secondary { padding: 0 18px; border: 1px solid var(--line-hot); color: #ded7e8; background: rgba(255,255,255,.025); }
@@ -726,7 +726,7 @@ button:focus-visible, a:focus-visible, input:focus-visible, select:focus-visible
   .judge-hero h1 { margin: 18px 0; font-size: clamp(46px,13vw,62px); line-height: .95; }
   .judge-hero__copy > p { font-size: 17px; line-height: 1.55; }
   .judge-hero__actions { margin-top: 26px; }
-  .judge-hero__primary { flex: 0 0 auto; min-width: 0; }
+  .judge-hero__primary { flex: 1; min-width: 180px; }
   .judge-hero__secondary { min-width: 132px; }
   .judge-hero__proof { grid-template-columns: 1fr; }
   .judge-hero__proof div { min-height: 88px; }
